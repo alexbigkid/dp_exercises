@@ -23,3 +23,8 @@ class FlyWithWings(FlyBehavior):
 class FlyNoWay(FlyBehavior):
     def fly(self) -> None:
         print('cannot fly')
+
+
+class FlyRocketPowered(FlyBehavior):
+    def fly(self) -> None:
+        print('I am flying with a rocket!')
