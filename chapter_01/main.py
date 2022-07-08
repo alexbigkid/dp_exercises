@@ -1,6 +1,7 @@
 import sys
 
 from duck import ModelDuck, WildDuck
+from fly_behavior import FlyBehavior, FlyRocketPowered
 
 
 def main():
@@ -17,6 +18,9 @@ def main():
         model_duck.display()
         model_duck.swim()
         model_duck.perform_quack()
+        model_duck.perform_fly()
+        model_duck.set_fly_behavior(FlyRocketPowered())
+        print('Upgrading flight behavior')
         model_duck.perform_fly()
 
     except Exception as exception:
