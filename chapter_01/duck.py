@@ -6,6 +6,7 @@ class Duck(metaclass=ABCMeta):
     duck_fly_behavior: FlyBehavior = None
     duck_quack_behavior: QuackBehavior = None
 
+
     @classmethod
     def __subclasshook__(cls, subclass):
         return (
@@ -18,8 +19,10 @@ class Duck(metaclass=ABCMeta):
             NotImplemented
         )
 
+
     def __init__(self):
         super().__init__()
+
 
     @abstractmethod
     def display(self) -> None:
@@ -38,6 +41,14 @@ class Duck(metaclass=ABCMeta):
         self.duck_quack_behavior.quack()
 
 
+    def set_fly_behavior(self, fly_behavior:FlyBehavior) -> None:
+        self.duck_fly_behavior = fly_behavior
+
+
+    def set_quack_behavior(self, quack_behavior:QuackBehavior) -> None:
+        self.duck_quack_behavior = quack_behavior
+
+
 
 class WildDuck(Duck):
 
@@ -46,8 +57,10 @@ class WildDuck(Duck):
         self.duck_quack_behavior = Quack()
         super().__init__()
 
+
     def display(self) -> None:
         print('I am a wild duck!')
+
 
 
 class ModelDuck(Duck):
@@ -56,6 +69,7 @@ class ModelDuck(Duck):
         self.duck_fly_behavior = FlyNoWay()
         self.duck_quack_behavior = MuteQuack()
         super().__init__()
+
 
     def display(self) -> None:
         print('I am a model duck!')
