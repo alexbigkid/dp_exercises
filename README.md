@@ -8,6 +8,26 @@ However instead of Java, Python is used for the exercises.
 - [2. Prerequisites](#2-prerequisites)
 - [3. Program tested running on:](#3-program-tested-running-on)
 
+# OO Basics <!-- omit in toc -->
+- Abstraction
+- Encapsulation
+- Polymorthism
+- Inheritance
+
+# OO Principles <!-- omit in toc -->
+- Encapsulate what varies
+- Favor composition over inheritance
+- Program to interfaces, not implementations
+
+# SOLID Principles <!-- omit in toc -->
+|          | name                          | description                                                                                                                                               |
+| :------- | :---------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <b>S</b> | <b>Single Responsibility:</b> | A class should have one, and only one, reason to change                                                                                                   |
+| <b>O</b> | <b>Open/Close:</b>            | Open for extention, Close for modifications                                                                                                               |
+| <b>L</b> | <b>Liskov Substitution:</b>   | objects of a superclass shall be replaceable with objects of its subclasses without breaking the application                                              |
+| <b>I</b> | <b>Interface Segregation:</b> | Clients should not be forced to depend upon interfaces that they do not use                                                                               |
+| <b>D</b> | <b>Dependency Inversion:</b>  | High-level modules, which provide complex logic, should be easily reusable and unaffected by changes in low-level modules, which provide utility features |
+
 
 ## 1. Chapter 1 - Strategy Pattern
 <b>The Strategy Pattern</b> defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
