@@ -170,7 +170,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="SUP1asOqIllWdk1ZQvld" name="actionGame">
-        <mxGraphModel dx="2153" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="553" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="FtUsIOzg6ZiFX8PkNs-J-0"/>
                 <mxCell id="FtUsIOzg6ZiFX8PkNs-J-1" parent="FtUsIOzg6ZiFX8PkNs-J-0"/>
@@ -189,7 +189,7 @@
                 <mxCell id="5q2N4EW3rgL2drmj5KT_-4" value="methods" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5q2N4EW3rgL2drmj5KT_-0">
                     <mxGeometry y="103" width="240" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="5q2N4EW3rgL2drmj5KT_-5" value="fight {abstract}&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5q2N4EW3rgL2drmj5KT_-0">
+                <mxCell id="5q2N4EW3rgL2drmj5KT_-5" value="fight {abstract}&lt;br&gt;setWeapon(WeaponBehavior wb)&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5q2N4EW3rgL2drmj5KT_-0">
                     <mxGeometry y="123" width="240" height="107" as="geometry"/>
                 </mxCell>
                 <mxCell id="5q2N4EW3rgL2drmj5KT_-6" style="edgeStyle=none;html=1;entryX=0.081;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=arrow;" edge="1" parent="FtUsIOzg6ZiFX8PkNs-J-1" source="5q2N4EW3rgL2drmj5KT_-7" target="5q2N4EW3rgL2drmj5KT_-5">
