@@ -5,8 +5,9 @@ However instead of Java, Python is used for the exercises.
 
 # Table of Contents <!-- omit in toc -->
 - [1. Chapter 1 - Strategy Pattern](#1-chapter-1---strategy-pattern)
-- [2. Prerequisites](#2-prerequisites)
-- [3. Program tested running on:](#3-program-tested-running-on)
+- [2. Chapter 2 - Observer Pattern](#2-chapter-2---observer-pattern)
+- [3. Prerequisites](#3-prerequisites)
+- [4. Program tested running on:](#4-program-tested-running-on)
 
 # OO Basics <!-- omit in toc -->
 - Abstraction
@@ -33,7 +34,11 @@ However instead of Java, Python is used for the exercises.
 <b>The Strategy Pattern</b> defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
 
-## 2. Prerequisites
+## 2. Chapter 2 - Observer Pattern
+<b>The Observer Pattern</b> defines a one to many relationship between a set of objects. When the state of one object changes, all of its dependents are notified.
+
+
+## 3. Prerequisites
 | tool   | description                                                                  |
 | :----- | :--------------------------------------------------------------------------- |
 | make   | tool to execute compile instructions from Makefile                           |
@@ -44,7 +49,7 @@ However instead of Java, Python is used for the exercises.
 
 
 
-## 3. Program tested running on:
+## 4. Program tested running on:
 - [x] MacOS Monterey (local machine) / Python 3.8.9
 - [ ] Linux Ubuntu 20.04  / Python 3.8.5
 - [ ] Windows 10 (pipeline) / Python 3.7
