@@ -4,7 +4,7 @@ from WeatherData import WeatherData
 from DisplayCurrentConditions import DisplayCurrentConditions
 from DisplayForecast import DisplayForecast
 from DisplayStatistic import DisplayStatistic
-
+from DisplayHeatIndex import DisplayHeatIndex
 
 def main():
     exit_code = 0
@@ -12,6 +12,7 @@ def main():
     current_conditions = DisplayCurrentConditions(weather_data)
     statistics = DisplayStatistic(weather_data)
     forecast = DisplayForecast(weather_data)
+    heat_index = DisplayHeatIndex(weather_data)
 
     try:
         weather_data.set_measurements(temperature=80, humidity=65, pressure=30.4)
@@ -26,6 +27,10 @@ def main():
 
         weather_data.unsubscribe(statistics)
         weather_data.set_measurements(temperature=56, humidity=85, pressure=42.0)
+        weather_data.set_measurements(pressure=45.0)
+
+        weather_data.unsubscribe(heat_index)
+        weather_data.set_measurements(temperature=96, humidity=89, pressure=66.0)
 
     except Exception as exception:
         print(f"ERROR: executing chapter 2 exercise")

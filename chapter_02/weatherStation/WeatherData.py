@@ -34,11 +34,16 @@ class WeatherData(IPublisher):
 
     def set_measurements(self, temperature:float=None, humidity:float=None, pressure:float=None) -> None:
         updated_measurements:dict = {}
+        updated_list = []
         if temperature is not None:
+            updated_list.append(WeatherInfo.TEMPERATURE)
             updated_measurements[WeatherInfo.TEMPERATURE] = temperature
         if humidity is not None:
+            updated_list.append(WeatherInfo.HUMIDITY)
             updated_measurements[WeatherInfo.HUMIDITY] = humidity
         if pressure is not None:
+            updated_list.append(WeatherInfo.PRESSURE)
             updated_measurements[WeatherInfo.PRESSURE] = pressure
+        print(f'Updating: {[updated.value for updated in updated_list]}')
         self.notify(updated_measurements)
         print('')
