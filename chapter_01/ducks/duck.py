@@ -1,4 +1,5 @@
 from abc import ABCMeta, abstractmethod
+from ctypes import PYFUNCTYPE
 from fly_behavior import FlyBehavior, FlyNoWay, FlyWithWings
 from quack_behavior import MuteQuack, Quack, QuackBehavior
 
