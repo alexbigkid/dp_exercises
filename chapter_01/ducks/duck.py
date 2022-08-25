@@ -1,5 +1,4 @@
 from abc import ABCMeta, abstractmethod
-from ctypes import PYFUNCTYPE
 from fly_behavior import FlyBehavior, FlyNoWay, FlyWithWings
 from quack_behavior import MuteQuack, Quack, QuackBehavior
 
@@ -74,3 +73,7 @@ class ModelDuck(Duck):
 
     def display(self) -> None:
         print('I am a model duck!')
+
+
+if __name__ == '__main__':
+    raise Exception(f'This module should not be executed directly. Only for imports')

@@ -12,3 +12,7 @@ class IObserver(metaclass=ABCMeta):
     @abstractmethod
     def update(self, updated_data:dict) -> None:
         raise NotImplementedError
+
+
+if __name__ == '__main__':
+    raise Exception(f'This module should not be executed directly. Only for imports')

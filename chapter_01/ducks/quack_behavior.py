@@ -28,3 +28,7 @@ class Squeak(QuackBehavior):
 class MuteQuack(QuackBehavior):
     def quack(self) -> None:
         print('<< Silence >>')
+
+
+if __name__ == '__main__':
+    raise Exception(f'This module should not be executed directly. Only for imports')

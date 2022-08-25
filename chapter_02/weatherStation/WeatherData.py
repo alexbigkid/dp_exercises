@@ -47,3 +47,7 @@ class WeatherData(IPublisher):
         print(f'Updating: {[updated.value for updated in updated_list]}')
         self.notify(updated_measurements)
         print('')
+
+
+if __name__ == '__main__':
+    raise Exception(f'This module should not be executed directly. Only for imports')

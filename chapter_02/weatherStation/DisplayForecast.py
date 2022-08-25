@@ -30,3 +30,7 @@ class DisplayForecast(IObserver, IDisplay):
         else:
             forecast = 'Watch out for cooler, rainy weather'
         print(f'Forecast: {forecast}')
+
+
+if __name__ == '__main__':
+    raise Exception(f'This module should not be executed directly. Only for imports')

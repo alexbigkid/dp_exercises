@@ -30,3 +30,7 @@ class DisplayStatistic(IObserver, IDisplay):
 
     def display(self) -> None:
         print(f'Avg/Max/Min temperature = {self._temp_sum/self._num_readings}/{self._max_temp}/{self._min_temp}')
+
+
+if __name__ == '__main__':
+    raise Exception(f'This module should not be executed directly. Only for imports')

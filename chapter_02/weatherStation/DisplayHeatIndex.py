@@ -52,3 +52,7 @@ class DisplayHeatIndex(IObserver, IDisplay):
 
     def display(self) -> None:
         print(f'Heat index: {self._heat_index}')
+
+
+if __name__ == '__main__':
+    raise Exception(f'This module should not be executed directly. Only for imports')

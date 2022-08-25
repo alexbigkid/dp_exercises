@@ -28,3 +28,7 @@ class FlyNoWay(FlyBehavior):
 class FlyRocketPowered(FlyBehavior):
     def fly(self) -> None:
         print('I am flying with a rocket!')
+
+
+if __name__ == '__main__':
+    raise Exception(f'This module should not be executed directly. Only for imports')

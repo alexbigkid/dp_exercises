@@ -25,3 +25,7 @@ class DisplayCurrentConditions(IObserver, IDisplay):
 
     def display(self) -> None:
         print(f'Current conditions: {self._temperature} F degrees and {self._humidity}% humidity')
+
+
+if __name__ == '__main__':
+    raise Exception(f'This module should not be executed directly. Only for imports')
