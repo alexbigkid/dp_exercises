@@ -133,3 +133,4 @@ dmypy.json
 
 Head-First-Design-Patterns-master.zip
 Head-First-Design-Patterns-master/**
+**/node_modules
