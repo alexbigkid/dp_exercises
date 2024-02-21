@@ -1,8 +1,8 @@
-# Weather Monitor
+# Weather Monitor s <!-- omit in toc -->
 
 Overview of weather monitor application
 
-[TOC]
+# Table of Contents <!-- omit in toc -->
 
 ## Initial design
 

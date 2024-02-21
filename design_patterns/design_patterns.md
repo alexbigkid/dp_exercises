@@ -45,5 +45,7 @@ However instead of Java, Python and TypeScript is used for the exercises.
 
 ## 2. Chapter 2 - Observer Pattern
 <b>The Observer Pattern</b> defines a one to many relationship between a set of objects. When the state of one object changes, all of its dependents are notified.
+- [observer pattern description and diagrams](002_observer/docs/observer_pattern.md)
+- [observer pattern exercise](002_observer/docs/weather_monitor.md)
 
 :checkered_flag:

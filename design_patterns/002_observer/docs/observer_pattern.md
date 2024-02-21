@@ -1,6 +1,6 @@
-# Observer Pattern
+# Observer Pattern  <!-- omit in toc -->
 
-
+# Table of Contents <!-- omit in toc -->
 [TOC]
 
 ### Magazine or newspaper subscription
@@ -83,4 +83,6 @@ classDiagram
 - observers can be removed any time
 - no need to modify Observable to add new type of observers
 - Observables and Observers can be reused independently of each other
--changes to the Observable or an Observer will not effect each other as long as we comply to the interfaces defined
+- changes to the Observable or an Observer will not effect each other as long as we comply to the interfaces defined
+
+### [Excercises](./observer_pattern.md)
