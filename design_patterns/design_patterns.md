@@ -41,7 +41,8 @@ However instead of Java, Python and TypeScript is used for the exercises.
 
 ## 1. Chapter 1 - Strategy Pattern
 <b>The Strategy Pattern</b> defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
-
+- [strategy pattern description and diagrams](001_strategy/docs/strategy_pattern.md)
+- [strategy pattern exercise](001_strategy/docs/ducks.md)
 
 ## 2. Chapter 2 - Observer Pattern
 <b>The Observer Pattern</b> defines a one to many relationship between a set of objects. When the state of one object changes, all of its dependents are notified.
