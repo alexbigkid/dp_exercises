@@ -1,5 +1,4 @@
 # Install test dependencies
-boto3
 coverage
 parameterized
 
