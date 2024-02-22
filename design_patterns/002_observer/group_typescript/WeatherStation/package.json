@@ -2,10 +2,12 @@
     "name": "weather-station",
     "version": "1.0.0",
     "scripts": {
-        "lint": "eslint .",
-        "test": "jest",
         "build": "tsc",
-        "clean": "rm -rf dist"
+        "clean": "rm -rf dist",
+        "lint": "eslint .",
+        "main": "node ./lib/main.js",
+        "main2": "node ./lib/main2.js",
+        "test": "jest"
     },
     "devDependencies": {
         "eslint": "^8.56.0",
