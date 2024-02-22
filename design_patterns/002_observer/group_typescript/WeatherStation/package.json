@@ -1,0 +1,14 @@
+{
+    "name": "weather-station",
+    "version": "1.0.0",
+    "scripts": {
+        "lint": "eslint .",
+        "test": "jest",
+        "build": "tsc",
+        "clean": "rm -rf dist"
+    },
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "jest": "^29.7.0"
+    }
+}
